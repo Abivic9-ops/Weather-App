@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    Importing the Google Icons
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=air" />
     <link rel="stylesheet"
@@ -30,7 +31,7 @@
             </button>
         </header>
 
-        <section class="weather-info">
+        <section class="weather-info " style="display: none;">
             <div class="location-date-container">
                 <div class="location">
                     <i class='bx bx-current-location'></i>
@@ -60,7 +61,7 @@
                 </div>
 
                 <div class="condition-item">
-                    <i class='bx bx-wind' ></i>
+                    <i class='bx bx-wind'></i>
                     <div class="condition-info">
                         <h5 class="regular-txt">Wind Speed</h5>
                         <h5 class="humidity-value">2 M/s</h5>
@@ -68,7 +69,61 @@
                 </div>
             </div>
 
+            <div class="forecast-items-container">
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">
+                        20 Mar
+                    </h5>
+                    <img src="assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">29 °C</h5>
+                </div>
+
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">
+                        20 Mar
+                    </h5>
+                    <img src="assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">29 °C</h5>
+                </div>
+
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">
+                        20 Mar
+                    </h5>
+                    <img src="assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">29 °C</h5>
+                </div>
+
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">
+                        20 Mar
+                    </h5>
+                    <img src="assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">29 °C</h5>
+                </div>
+            </div>
         </section>
+ 
+        <section class="search-city section-message">
+            <img  src="assets/message/search-city.png" alt="">
+             <div>
+                <h1>Search City</h1>
+                <h4 class="regular-txt">Find out weather conditions of the city</h4>
+             </div>
+        </section> 
+
+        <section class="not-found section-message" style="display: none;">
+            <img  src="assets/message/not-found.png" alt="">
+             <div>
+                <h1>Search City</h1>
+                <h4 class="regular-txt">Find out weather conditions of the city</h4>
+             </div>
+        </section> 
+
+        
+
+
+
     </main>
 
 
